@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ={"src/test/resources/AppFeatures/LoginPage.feature"},
+        features ={"src/test/resources/AppFeatures"},
         glue = {"StepDefinitions","AppHooks"},
         plugin = {"pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
